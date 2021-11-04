@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/style/main.css">
+    
+    <title>Ao resgate</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="fundoGame">
+            <div id="inicio" onclick="start()">
+            <h1>Resgate</h1>
+            <p>Utilize a tecla W para movimenta o helicóptero para cima, a tecla S para movimentar para baixo e a tecla D para atirar.</p>
+            <p>Clique aqui para iniciar!</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Sons do jogo !-->
+<audio src="/arquivos_prof/sons/som.mp3" preload="auto" id="somDisparo"></audio>
+<audio src="/arquivos_prof/sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+<audio src="/arquivos_prof/sons/musica_fundo.mp3" preload="auto" id="musica"></audio>
+<audio src="/arquivos_prof/sons/gameover.mp3" preload="auto" id="somGameover"></audio>
+<audio src="/arquivos_prof/sons/perdido.mp3" preload="auto" id="somPerdido"></audio>	
+<audio src="/arquivos_prof/sons/resgate.mp3" preload="auto" id="somResgate"></audio>
+
+
+    <script type="text/javascript" src="/arquivos_prof/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/arquivos_prof/js/js.js"></script>
+    <script type="text/javascript" src="/arquivos_prof/js/jquery-collision.min.js"></script>
+    
+</body>
+
+</html>
